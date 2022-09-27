@@ -1,0 +1,16 @@
+a:link, a:visited{
+    text-decoration: underline;
+    background-color: none;
+    border: none;
+    color:blue;
+    display: block;
+    text-align:left;
+}
+
+a:hover, a:active {
+    color:purple;
+}
+
+/* .projects li:nth-child(2){
+    font-size: 24px;dfdf
+} */
