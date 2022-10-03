@@ -11,6 +11,44 @@ a:hover, a:active {
     color:purple;
 }
 
+@font-face {
+    font-family: 'Roboto-Regular'; /*a name to be used later*/
+    src: url('fonts/Roboto-Regular.ttf'); /*URL to font*/
+}
+
+
+@font-face {
+    font-family: 'Roboto-Thin'; /*a name to be used later*/
+    src: url('fonts/Roboto-Thin.ttf'); /*URL to font*/
+}
+
+#box {
+    background-color: blue;
+    padding: 10px;
+    border: 20px solid black;
+    width: 300px;
+    height: 50px;
+    margin: 40px;
+    box-sizing: border-box;
+  }
+
+#headerFont {
+    font-family: 'Roboto-Regular';
+    font-size: 50px;
+}
+
+
+#headerFont2 {
+    font-family: 'Roboto-Regular';
+    font-size: 30px;
+}
+
+p,a {
+    font-family: 'Arial'
+}
+
+
+
 /* .projects li:nth-child(2){
     font-size: 24px;dfdf
 } */
