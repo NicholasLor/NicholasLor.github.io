@@ -1,54 +1,39 @@
-a:link, a:visited{
-    text-decoration: underline;
-    background-color: none;
-    border: none;
-    color:blue;
-    display: block;
-    text-align:left;
-}
-
-a:hover, a:active {
-    color:purple;
-}
-
-@font-face {
-    font-family: 'Roboto-Regular'; /*a name to be used later*/
-    src: url('fonts/Roboto-Regular.ttf'); /*URL to font*/
-}
-
-
-@font-face {
-    font-family: 'Roboto-Thin'; /*a name to be used later*/
-    src: url('fonts/Roboto-Thin.ttf'); /*URL to font*/
-}
-
-#box {
-    background-color: blue;
-    padding: 10px;
-    border: 20px solid black;
-    width: 300px;
-    height: 50px;
-    margin: 40px;
-    box-sizing: border-box;
+:root {
+    --jumbotron-padding-y: 3rem;
   }
-
-#headerFont {
-    font-family: 'Roboto-Regular';
-    font-size: 50px;
-}
-
-
-#headerFont2 {
-    font-family: 'Roboto-Regular';
-    font-size: 30px;
-}
-
-p,a {
-    font-family: 'Arial'
-}
-
-
-
-/* .projects li:nth-child(2){
-    font-size: 24px;dfdf
-} */
+  
+  .jumbotron {
+    padding-top: var(--jumbotron-padding-y);
+    padding-bottom: var(--jumbotron-padding-y);
+    margin-bottom: 0;
+    background-color: #fff;
+  }
+  @media (min-width: 768px) {
+    .jumbotron {
+      padding-top: calc(var(--jumbotron-padding-y) * 2);
+      padding-bottom: calc(var(--jumbotron-padding-y) * 2);
+    }
+  }
+  
+  .jumbotron p:last-child {
+    margin-bottom: 0;
+  }
+  
+  .jumbotron-heading {
+    font-weight: 300;
+  }
+  
+  .jumbotron .container {
+    max-width: 40rem;
+  }
+  
+  footer {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  
+  footer p {
+    margin-bottom: .25rem;
+  }
+  
+  .box-shadow { box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05); }
