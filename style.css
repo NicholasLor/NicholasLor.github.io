@@ -7,6 +7,11 @@
     height: 15vw;
     object-fit: cover;
 } */
+  .card:hover{
+      border-color: #646cff;
+      cursor: pointer;
+    
+  }
   
   .jumbotron {
     padding-top: var(--jumbotron-padding-y);
