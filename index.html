@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/about.txt">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io//favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io//favicon-16x16.png">
+    <link rel="manifest" href="favicon_io//site.webmanifest">
+
     <title>Nick Lor</title>
         <link rel="stylesheet" href="style.css">
         <!-- <link rel="stylesheet" href="css/styles.css"> -->
@@ -17,56 +22,75 @@
 </head>
 <body>      
       <header>
-        </header>
+        <div class="container">
+          <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
+            <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
+              <span class="fs-1">&#128075;  Hey, I'm Nick.</span>
+            </a>
+          </header>
+        </div>
+      </header>
       
         <main role="main">
-      
-          <section class="jumbotron text-center">
             <div class="container">
-              <h1>Hey, I'm Nick L.</h1>
 
-              <p class="lead text-muted">Passionate software developer in-training. Data enthusiast with experience scaling analytics and reporting capabilites for organizations.</p>
+              <ul>
+                <li class="lead text-muted fs-6">MEng candidate in software engineering graduating from the University of Calgary in May 2023</li>
+                <li class="lead text-muted fs-6">3+ years experience scaling analytics and business intelligence capabilites for organizations</li>
+                <li class="lead text-muted fs-6">Seeking data engineering or software engineering roles for May 2023</li>
+              </ul>
 
               <br>
-              <div class="btn-group">
+              <div class="btn-group-wrap">
+                <div class="btn-group">
 
-                <button type="button" class="btn btn-sm btn-outline-secondary">
-                  <a href="https://github.com/NicholasLor/" target="blank">
-                    
-                    <img src ="media/github.svg">
-                  </a>
-                </button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                    <a href="https://github.com/NicholasLor/">
+                      
+                      <img src ="media/github.svg">
+                    </a>
+                  </button>
 
-                <button type="button" class="btn btn-sm btn-outline-secondary">
-                  <a href="https://www.linkedin.com/in/nicholaslor1/" target="blank">
-                    <img src ="media/linkedin.svg">
-                  </a>
-                </button>
+                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                    <a href="https://www.linkedin.com/in/nicholaslor1/">
+                      <img src ="media/linkedin.svg">
+                    </a>
+                  </button>
 
+                  <button type="button" class="btn btn-sm btn-outline-secondary">
+                    <a href="mailto:nicholas.lor@ucalgary.ca">
+                      <img src ="media/mail.svg" width="29">
+                    </a>
+                  </button>
+
+                </div>
               </div>
 
+              <br>
 
 
             </div>
-          </section>
+
+
+
 
           
           <div class="container">
-            <hr>
+            <hr style="margin-bottom: 30px">
             <h2>Experience</h2>
             <div class="row">
               <div class="col-md-12">
                 <div class="card mb-3">
                   <div class="card-body">
-                    <h4>Software Developer Intern</h4>
+                    <img src="media/getty.png" width="100">
+                    <h4>Capstone Project Internship</h4>
                     <span class="badge bg-primary">TypeScript</span>
                     <span class="badge bg-primary">Electron</span>
                     <span class="badge bg-primary">Playwright</span>
                     <p>Getty Images, Jan 2023 - Present</p>
                     <ul>
-                      <li>Test</li>
-                      <li>Responsibility 2</li>
-                      <li>Responsibility 3</li>
+                      <li>Writing end-to-end automated UI test framework for an in-house Electron application using TypeScript, Cucumber-js, and Playwright</li>
+                      <li>When completed, this framework is projected to save the development team a minimum of 200 hours of manual applications testing annually</li>
                     </ul>
                   </div>
                 </div>
@@ -74,15 +98,16 @@
               <div class="col-md-12">
                 <div class="card mb-3">
                   <div class="card-body">
+                    <img src="media/uofc.png" width="120" style="margin-bottom: 10px;">
                     <h4>Business Intelligence and Analytics Developer</h4>
                     <span class="badge bg-primary">PowerBI</span>
+                    <span class="badge bg-primary">Excel</span>
                     <span class="badge bg-primary">Python</span>
                     <span class="badge bg-primary">SQL</span>
                     <p>University of Calgary, Jan 2023 - Present</p>
                     <ul>
-                      <li>Responsibility 1</li>
-                      <li>Responsibility 2</li>
-                      <li>Responsibility 3</li>
+                      <li>Built revenue forecasting model using Python and SQL to support a shift from annual to term-based student union fees, which has collectively saved the graduate student body 6% in excess fees</li>
+                      <li>Lead analyst and BI developer executing unified scorecard project for 60 employee department, handling all aspects including PowerBI dashboard development, SQL and data modelling, training, and security</li>
                     </ul>
                   </div>
                 </div>
@@ -91,19 +116,75 @@
               <div class="col-md-12">
                 <div class="card mb-3">
                   <div class="card-body">
+                    <img src="media/sa.png" width="100" style="margin-top: 10px; margin-bottom: 15px;">
                     <h4>Projects Engineer</h4>
-                    <p>StandardAero, June 2019 - September 2022</p>
                     <span class="badge bg-primary">PowerBI</span>
+                    <span class="badge bg-primary">Excel</span>
                     <span class="badge bg-primary">SQL</span>
                     <span class="badge bg-primary">VBA</span>
+                    <p>StandardAero, June 2019 - September 2022</p>
                     <ul>
-                      <li>Responsibility 1</li>
-                      <li>Responsibility 2</li>
-                      <li>Responsibility 3</li>
+                      <li>Achieved consecutive annual savings of $2M+ from operational improvement project portfolio by executing and managing operational projects, as well as providing Business Intelligence and analytics support with PowerBI</li>
+                      <li>Unified multiple enterprise project management systems data into one dataset in PowerBI, enabling streamlined reporting of $XXM worth of annual improvement projects</li>
                     </ul>
                   </div>
                 </div>
               </div>
+
+              <div class="span2 text-center">
+                  <p>
+                    <a href="#show-more-btn">
+                    <button class="btn btn-outline-primary btn-block text-center" id="show-more-btn"> Show Co-op Experiences</button></p>
+                    </a>
+                </div>
+              
+              <div class="col-md-12 hidden-card" id="coop">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <img src="media/westjet.png" width="150">
+                    <h4>Continuous Improvement Analyst</h4>
+                    <span class="badge bg-primary">Excel</span>
+                    <span class="badge bg-primary">VBA</span>
+                    <p>WestJet Airlines, May 2018 - August 2018</p>
+                    <ul>
+                      <li>Led a cross-functional team of supply chain and inventory managers in a software design process to increase efficiency. The result: a reduction of duplicate and unnecessary inventory requests by 31%, saving 780 work hours annually upon implemention</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              
+              <div class="col-md-12 hidden-card">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <img src="media/pepsico.jpeg" width="150">
+                    <h4>Demand Planning Analyst Co-op</h4>
+                    <span class="badge bg-primary">Excel</span>
+                    <span class="badge bg-primary">VBA</span>
+                    <p>PepsiCo., Sept. 2017 - Dec. 2017</p>
+                    <ul>
+                      <li>Created Excel dashboard to compare key metrics of software versus human generated forecasts to identify redundant areas of forecasting efforts, and increase accuracy of forecasting. In addition, the project allowed reports to be generated in a timely fashion and saved over 25 hours per year</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-12 hidden-card">
+                <div class="card mb-3">
+                  <div class="card-body">
+                    <img src="media/nsp.png" width="125" style="margin-top: 10px; margin-bottom: 15px;">
+                    <br>
+                    <h4>Load Forecasting Analyst Co-op</h4>
+                    <span class="badge bg-primary">Excel</span>
+                    <span class="badge bg-primary">VBA</span>
+                    <p>Nova Scotia Power, Jan. 2017 - April 2017</p>
+                    <ul>
+                      <li>Used distribution engineering standards and analyzed infrastructure data to improve the accuracy of the Nova Scotia Power line loss model</li>
+                      <li>Optimized conversion time of raw meter data files using VBA process and eliminated need for existing archaic hardware process</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+
             </div>
             <hr>
             <h2>Education</h2>
@@ -111,20 +192,31 @@
               <div class="col-md-12">
                 <div class="card mb-3">
                   <div class="card-body">
+                    <img src="media/uofc.png" width="120" style="margin-bottom: 5px;">
                     <h4>Masters of Engineering, Software</h4>
-                    <p>University of Calgary, April 2023</p>
+                    <p>University of Calgary, May 2022 - April 2023</p>
+                    <ul>
+                      <li>Relevant coursework: Databases, Engineering Large Scale Data Analytics Systems, Data Mining and Machine Learning, Team Design in Software Engineering, System Analysis and Software Design, Dependability and Reliability of Systems</li>
+                    </ul>
                   </div>
                 </div>
               </div>
               <div class="col-md-12">
                 <div class="card mb-3">
                   <div class="card-body">
+                    <img src="media/dal.png" width="100" style="margin: 7px;">
                     <h4>Bachelors of Engineering, Industrial Engineering</h4>
-                    <p>Dalhousie University, May 2019</p>
+                    <p>Dalhousie University, Sept 2014 - May 2019</p>
+                    <ul>
+                      <li>Statistics, Business Analytics for Decision Making, Project Management, Computational Methods & Algorithms, Design of Info Management Systems, Simulation of Industrial Systems</li>
+                    </ul>
                   </div>
                 </div>
               </div>
+
+
             </div>
+
           </div>
           <div class="album py-5 bg-light">
             <div class="container">
@@ -134,7 +226,7 @@
       
               <div class="row">
                 <div onclick="openLink3()"class="col-md-4 d-flex align-items-stretch">
-                  <div class="card mb-4 box-shadow">
+                  <div class="card mb-4 box-shadow clickable-card">
                     <img class="card-img-top" src="media/cryptolobbyingphoto2.png" alt="Card image cap">
                     <div class="card-body">
                       <h4>Cryptocurrency Lobbying Dashboard</h4>
@@ -147,13 +239,13 @@
                         <div class="btn-group">
 
                             <button type="button" class="btn btn-sm btn-outline-secondary">
-                              <a href="https://medium.com/@bobbylor00/inside-the-crypto-industrys-efforts-to-ramp-up-government-lobbying-a-data-project-pt-1-e2f365e1a200" target="blank">
+                              <a href="https://medium.com/@bobbylor00/inside-the-crypto-industrys-efforts-to-ramp-up-government-lobbying-a-data-project-pt-1-e2f365e1a200">
                                 <img src ="media/linkicon.svg" width=>
                               </a>
                             </button>
                             
                             <button type="button" class="btn btn-sm btn-outline-secondary">
-                            <a href="https://github.com/NicholasLor/crypto-lobbying-tracker" target="blank">
+                            <a href="https://github.com/NicholasLor/crypto-lobbying-tracker">
                               <img src ="media/github.svg">
                             </a>
                           </button>
@@ -168,7 +260,7 @@
                 </div>
 
                 <div onclick="openLink2()" class="col-md-4 d-flex align-items-stretch">
-                  <div class="card mb-4 box-shadow">
+                  <div class="card mb-4 box-shadow clickable-card">
                     <img class="card-img-top" src="media/WhoHeSkateForLogo.png" alt="Card image cap">
                     <div class="card-body">
                     <h4>Who He Skate For?</h4>
@@ -183,13 +275,13 @@
                         <div class="btn-group">
 
                           <button type="button" class="btn btn-sm btn-outline-secondary">
-                            <a href ="https://nicholaslor.github.io/WhoHeSkateFor/" target="blank">
+                            <a href ="https://nicholaslor.github.io/WhoHeSkateFor/">
                               <img src ="media/linkicon.svg" width=>
                             </a>
                           </button>
                           
                           <button type="button" class="btn btn-sm btn-outline-secondary">
-                          <a href="https://github.com/NicholasLor/WhoHeSkateFor" target="blank">
+                          <a href="https://github.com/NicholasLor/WhoHeSkateFor">
                             <img src ="media/github.svg">
                           </a>
                         </button>
@@ -202,7 +294,7 @@
                 
 
                 <div onclick="openLink()" class="col-md-4 d-flex align-items-stretch">
-                  <div class="card mb-4 box-shadow">
+                  <div class="card mb-4 box-shadow clickable-card">
                     <img class="card-img-top" src="media/mindgames3.png" alt="Card image cap">
                     <div class="card-body">
                       <h4>NeuraTech Alberta Hackathon</h4>
@@ -215,7 +307,7 @@
                         <div class="btn-group">
 
                           <button type="button" class="btn btn-sm btn-outline-secondary">
-                            <a href="https://github.com/NicholasLor/natHacks-team-Meng" target="blank">
+                            <a href="https://github.com/NicholasLor/natHacks-team-Meng">
                               
                               <img src ="media/github.svg">
                             </a>
@@ -243,17 +335,38 @@
         </footer>
 
         <script>
-          function openLink(){
-            window.open("https://github.com/NicholasLor/natHacks-team-Meng");
-          }
+        function openLink(){
+          window.open("https://github.com/NicholasLor/natHacks-team-Meng", "_self");
+        }
 
-          function openLink2(){
-            window.open("https://nicholaslor.github.io/WhoHeSkateFor/");
-          }
+        function openLink2(){
+          window.open("https://nicholaslor.github.io/WhoHeSkateFor/", "_self");
+        }
 
-          function openLink3(){
-            window.open("./crypto-dashboard.html");
-          }
+        function openLink3(){
+          window.open("./crypto-dashboard.html", "_self");
+        }
+
+        // function expandResume () {
+        var showMoreBtn = document.getElementById("show-more-btn");
+        var hiddenCards = document.querySelectorAll(".hidden-card");
+        hiddenCards.forEach((card) => {
+            card.style.display = "none";
+          });
+
+        showMoreBtn.addEventListener("click", () => {
+          hiddenCards.forEach((card) => {
+            if (card.style.display === "none") {
+              card.style.display = "block";
+              showMoreBtn.innerText = "Hide Co-op Experiences"
+            } else {
+              card.style.display = "none";
+              showMoreBtn.innerText = "Show Co-op Experiences"
+            }
+
+          });
+        });
+
         </script>
 
 
