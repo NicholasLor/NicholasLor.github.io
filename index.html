@@ -22,13 +22,13 @@
 </head>
 <body>      
       <header>
-        <div class="container">
+        <!-- <div class="container">
           <header class="d-flex flex-wrap justify-content-center py-3 mb-4 border-bottom">
             <p href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none">
               <span  id="headertxt"class="fs-1">&#128075;  Hi, I'm Nick.</span>
             </p>
 
-            <div class="btn-group-wrap">
+            <div class="btn-group-wrap-1">
               <div class="btn-group">
 
                 <button id="gh" type="button" class="btn btn-sm btn-outline-secondary">
@@ -54,28 +54,116 @@
             </div>
 
           </header>
-        </div>
-        
-      </header>
-      
-        <main role="main">
-            <div class="container">
+          
 
-              <ul>
+          
+        </div> -->
+
+        <nav class="navbar navbar-expand-sm">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="#" style="font-size:200%" id="navheader">Nick Lor</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbarsExample03">
+
+              <ul class="navbar-nav ms-auto mb-2 mb-sm-0">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#exp">&#128084; Experience</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#edu">&#127891; Education</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#proj">&#128736;&#65039; Projects</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+
+      </header>
+
+      <br>
+
+      <div class="jumbotron jumbotron-fluid">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-md-6 boxy">
+              <h1 class="display-3">	&#128075; Hi, I'm Nick.</h1>
+              <br>
+              <p class="lead text-muted">MEng candidate in software engineering graduating from the University of Calgary in May 2023. 3+ years prior experience scaling analytics and business intelligence capabilites for organizations.  </p> 
+              <!-- <ul>
                 <li class="lead text-muted fs-6">MEng candidate in software engineering graduating from the University of Calgary in May 2023</li>
                 <li class="lead text-muted fs-6">3+ years experience scaling analytics and business intelligence capabilites for organizations</li>
                 <li class="lead text-muted fs-6">Seeking data engineering or software engineering roles for May 2023</li>
-              </ul>
-
+              </ul> -->
+              <br>
+              <div class="btn-group-wrap-1">
+                <div class="btn-group">
+  
+                  <button id="gh" type="button" class="btn btn-sm btn-outline-secondary">
+                    <a href="https://github.com/NicholasLor/">
+                      
+                      <img src ="media/github.svg">
+                    </a>
+                  </button>
+  
+                  <button id="linkedin" type="button" class="btn btn-sm btn-outline-secondary">
+                    <a href="https://www.linkedin.com/in/nicholaslor1/">
+                      <img src ="media/linkedin.svg">
+                    </a>
+                  </button>
+  
+                  <button id="mail" type="button" class="btn btn-sm btn-outline-secondary">
+                    <a href="mailto:nicholas.lor@ucalgary.ca">
+                      <img src ="media/mail.svg" width="29">
+                    </a>
+                  </button>
+  
+                </div>
+              </div>
             </div>
-
-
-
-
+            <div class="col-md-6 boxy">
+              <div class="x">
+              <div class='block i'>
+                <div class='vis i'></div>
+              </div>
+              <div class='block i'>
+                <div class='vis i'></div>
+              </div>
+              <div class='block i'>
+                <div class='vis i'></div>
+              </div>
+              <div class='block i'>
+                <div class='vis i'></div>
+              </div>
+              <div class='block i'>
+                <div class='vis i'></div>
+              </div>
+              <div class='block i'>
+                <div class='vis i'></div>
+              </div>
+              <!-- <div class='block i'>
+                <div class='vis i'></div>
+              </div>
+              <div class='block i'>
+                <div class='vis i'></div>
+              </div> -->
+              </div>
+              
+            </div>
+          </div>
+        </div>
+      </div>
+      
+        <main role="main">
           
           <div class="container">
-            <hr style="margin-bottom: 30px">
-            <h2>Experience</h2>
+            <hr>
+            <h2 id="exp">Experience</h2>
             <div class="row">
               <div class="col-md-12">
                 <div class="card mb-3">
@@ -185,7 +273,7 @@
 
             </div>
             <hr>
-            <h2>Education</h2>
+            <h2 id="edu">Education</h2>
             <div class="row">
               <div class="col-md-12">
                 <div class="card mb-3">
@@ -216,7 +304,7 @@
           </div>
           <div class="album py-5 bg-light">
             <div class="container">
-              <h2 class="jumbotron-heading text-center">Current Projects</h2>
+              <h2 class="jumbotron-heading text-center" id="proj">Current Projects</h2>
               <br>
               
       
