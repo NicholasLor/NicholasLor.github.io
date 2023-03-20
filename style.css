@@ -206,3 +206,7 @@
 #navheader {
   color: #0074D9;
 }
+
+body {
+  padding-top: 20px; /* adjust the value to match your navbar height */
+}
