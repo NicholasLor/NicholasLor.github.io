@@ -46,15 +46,23 @@
       padding-bottom: calc(var(--jumbotron-padding-y) * 2);
     } */
 
-
-
-
     
   }
 
   @media (max-width:767px)  { 
     /* smartphones, iPhone, portrait 480x320 phones */
 
+    .animation {
+      display:none;
+    }
+
+    .jumbotron{
+      margin-left: auto;
+    }
+
+    .container-fluid{
+      text-align: center;
+    }
 
   
   }
