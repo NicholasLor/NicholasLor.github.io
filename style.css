@@ -1,6 +1,6 @@
-:root {
+/* :root {
     --jumbotron-padding-y: 3rem;
-  }
+  } */
 
   /* .card-img-top {
     width: 100%;
@@ -33,12 +33,12 @@
 
   
   .jumbotron {
-    padding-top: var(--jumbotron-padding-y);
-    padding-bottom: var(--jumbotron-padding-y);
-    margin-bottom: 0;
-    margin-left: 10vh;
+    /* /padding-top: var(--jumbotron-padding-y); */
+    padding-bottom: 5rem;
+    margin-top: -12.5rem;
+    /* margin-left: 10vh; */
     background-color: #fff;
-    height: 100vh;
+    height: 75vh;
   }
   @media (min-width: 768px) {
     /* .jumbotron {
